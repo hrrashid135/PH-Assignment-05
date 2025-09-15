@@ -325,6 +325,128 @@ document.getElementById('railway-calling-btn').addEventListener('click', functio
 //Railway button functionality Ends here
 
 
+//clear all button functionality starts here
+document.getElementById('clear-all-btn').addEventListener('click', function() {
+    const container = document.getElementById('cards-container');
+    container.innerHTML = ''; // Clear all content inside the container
+});
+
+//copy emergency number button functionality starts here
+document.getElementById('copy-emergency').addEventListener('click', function() {
+    // Get the text content of the emergency number
+    let copyCount=parseInt(document.getElementById('copy_count').innerText);
+    copyCount+=1;
+    document.getElementById('copy_count').innerText=copyCount;
+   
+    alert("Emergency number copied to clipboard: 999");
+});
+//copy emergency number button functionality ends here
+
+
+//copy police helpline number button functionality starts here
+document.getElementById('police-copy').addEventListener('click', function() {
+    // Get the text content of the emergency number
+    let copyCount=parseInt(document.getElementById('copy_count').innerText);
+    copyCount+=1;
+    document.getElementById('copy_count').innerText=copyCount;
+   
+    alert("Police helpline number copied to clipboard: 999");
+});
+//copy police helpline number button functionality ends here
+
+
+//copy fire service helpline number button functionality starts here
+document.getElementById('fire-service-copy').addEventListener('click', function() {
+    // Get the text content of the emergency number
+    let copyCount=parseInt(document.getElementById('copy_count').innerText);
+    copyCount+=1;
+    document.getElementById('copy_count').innerText=copyCount;
+   
+    alert("Fire Service helpline number copied to clipboard: 999");
+});
+//copy fireService helpline number button functionality ends here
+
+
+
+//copy Ambulence service helpline number button functionality starts here
+document.getElementById('ambulence-service-copy').addEventListener('click', function() {
+    // Get the text content of the emergency number
+    let copyCount=parseInt(document.getElementById('copy_count').innerText);
+    copyCount+=1;
+    document.getElementById('copy_count').innerText=copyCount;
+   
+    alert("Ambulence Service helpline number copied to clipboard: 1994-999999");
+});
+//copy Ambulence  helpline number button functionality ends here
+
+
+//copy Women,children service helpline number button functionality starts here
+document.getElementById('women-service-copy').addEventListener('click', function() {
+    // Get the text content of the emergency number
+    let copyCount=parseInt(document.getElementById('copy_count').innerText);
+    copyCount+=1;
+    document.getElementById('copy_count').innerText=copyCount;
+   
+    alert("Women and children Helpline helpline number copied to clipboard: 109");
+});
+//Women & children  helpline number button functionality ends here
+
+
+//copy Anti Corruption helpline number button functionality starts here
+document.getElementById('dudok-copy').addEventListener('click', function() {
+    // Get the text content of the emergency number
+    let copyCount=parseInt(document.getElementById('copy_count').innerText);
+    copyCount+=1;
+    document.getElementById('copy_count').innerText=copyCount;
+   
+    alert("Anti-corruption Helpline helpline number copied to clipboard: 106");
+});
+//Anti -corruption  helpline number button functionality ends here
+
+
+
+//Electricity  helpline number button functionality starts here
+document.getElementById('electricity-copy').addEventListener('click', function() {
+    
+    let copyCount=parseInt(document.getElementById('copy_count').innerText);
+    copyCount+=1;
+    document.getElementById('copy_count').innerText=copyCount;
+   
+    alert("Electricity Helpline helpline number copied to clipboard: 16216");
+});
+//Electricity  helpline number button functionality ends here
+
+
+
+//Brac  helpline number button functionality starts here
+document.getElementById('brac-copy').addEventListener('click', function() {
+    
+    let copyCount=parseInt(document.getElementById('copy_count').innerText);
+    copyCount+=1;
+    document.getElementById('copy_count').innerText=copyCount;
+   
+    alert("Brac Helpline helpline number copied to clipboard: 16445");
+});
+//Brac  helpline number button functionality ends here
+
+
+
+//Railway  helpline number button functionality starts here
+document.getElementById('rail-copy').addEventListener('click', function() {
+    
+    let copyCount=parseInt(document.getElementById('copy_count').innerText);
+    copyCount+=1;
+    document.getElementById('copy_count').innerText=copyCount;
+   
+    alert("Railway Helpline helpline number copied to clipboard: 163");
+});
+//Railway  helpline number button functionality ends here
+
+
+
+
+
+
 
 
 
