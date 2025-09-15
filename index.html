@@ -8,7 +8,7 @@
 </head>
 <body>
     <!-- navbar like section -->
-   <div class="section-1 w-full py-[5px] bg-white flex items-center justify-between shadow ">
+   <div class="section-1 w-full py-[5px] bg-white flex items-center justify-between shadow sticky top-0 z-[1000]; z-index: 1000;">
         <div class="left flex items-center justify-between  ">
             <img src="assets/logo.png" class="h-[50px] w-auto " alt="">
             <div class="px-4">
@@ -22,13 +22,13 @@
         <div class="right flex items-center justify-between ">
             <!-- heart count -->
             <div class="heart w-[123px] h-[52px] bg-[#41FF6B1A]  rounded-xl  flex items-center justify-center mx-5">
-            <div id="heart_count" class="pr-2 text-2xl">0</div>
+            <div id="heart-count" class="pr-2 text-2xl">0</div>
             <img src="assets/heart.png" class="w-[30px] h-[30px] " alt="">
             </div>
 
             <!-- coin count-->
             <div class="coin w-[123px] h-[52px] bg-[#41FF6B1A]  rounded-xl  flex items-center justify-center mx-5">
-            <div id="coin_count" class="pr-2 text-2xl">0</div>
+            <div id="coin-count" class="pr-2 text-2xl">0</div>
             <img src="assets/coin.png" class="w-[30px] h-[30px] " alt="">
             </div>
             <!-- copy count  -->
@@ -62,18 +62,18 @@
                     <div class=" bg-[#FFE3E2] rounded-[16px] w-[60px] h-[60px] flex justify-center items-center ">
                         <img src="assets/emergency.png" alt="" class="w-8 h-8 ">
                     </div>
-                    <button><img src="assets/heart.png" alt="" class= " w-8 h-8"> </button>
+                    <img  src="assets/heart.png" alt="" class= " heart-icon w-8 h-8">
                 </div>
-                <!-- prothom card er card er prothom section sesh -->
+                <!-- prothom  card er prothom section sesh -->
                 
                 <h3>National Emnergency Number</h3>
                 <p>National Emergency</p>
-                <h1>999</h1>
+                <h1 class="num-999">999</h1>
                 <div class="w-[53px] h-[37px] bg-[#F2F2F2] rounded-xl flex justify-center items-center">All</div>
                 <div class="flex justify-between items-center mt-20">
-                    <button class="h-[40px] w-[182px] text-center border-2 border-gray-400 rounded-xl "> 📑 Copy</button>
+                    <button id="" class="h-[40px] w-[182px] text-center border-2 border-gray-400 rounded-xl "> 📑 Copy</button>
 
-                    <button class="h-[40px] w-[182px] text-center border-2 border-gray-400 rounded-xl bg-[#00A63E]">Call</button>  
+                    <button id="call-emergency" class="h-[40px] copy-btn-999 w-[182px] text-center border-2 border-gray-400 rounded-xl bg-[#00A63E]">Call</button>  
                 
                 </div>
                 
@@ -94,18 +94,18 @@
                     <div class=" bg-[#FFE3E2] rounded-[16px] w-[60px] h-[60px] flex justify-center items-center ">
                         <img src="assets/police.png" alt="" class="w-8 h-8 ">
                     </div>
-                    <button><img src="assets/heart.png" alt="" class= " w-8 h-8"> </button>
+                    <img  src="assets/heart.png" alt="" class= " heart-icon w-8 h-8">
                 </div>
                 <!-- prothom card er card er prothom section sesh -->
                 
                 <h3>Police Helpline Number</h3>
                 <p>Police</p>
-                <h1>999</h1>
+                <h1 class="num-999">999</h1>
                 <div class="w-[53px] h-[37px] bg-[#F2F2F2] rounded-xl flex justify-center items-center">Police</div>
                 <div class="flex justify-between items-center mt-20">
-                    <button class="h-[40px] w-[182px] text-center border-2 border-gray-400 rounded-xl"> 📑 Copy</button>
+                    <button id="" class="h-[40px] copy-btn-999 w-[182px] text-center border-2 border-gray-400 rounded-xl"> 📑 Copy</button>
 
-                    <button class="h-[40px] w-[182px] text-center border-2 border-gray-400 rounded-xl bg-[#00A63E]">Call</button>  
+                    <button id="call-police" class="h-[40px] w-[182px] text-center border-2 border-gray-400 rounded-xl bg-[#00A63E]">Call</button>  
                 
                 </div>
                 
@@ -127,18 +127,18 @@
                     <div class=" bg-[#FFE3E2] rounded-[16px] w-[60px] h-[60px] flex justify-center items-center ">
                         <img src="assets/fire-service.png" alt="" class="w-8 h-8 ">
                     </div>
-                    <button><img src="assets/heart.png" alt="" class= " w-8 h-8"> </button>
+                    <img src="assets/heart.png" alt="" class= " heart-icon w-8 h-8"> 
                 </div>
                 <!-- 3rd card er card er prothom section sesh -->
                 
                 <h3>Fire-Service Number</h3>
                 <p>Fire Service</p>
-                <h1>999</h1>
+                <h1 id="num-999">999</h1>
                 <div class="w-[53px] h-[37px] bg-[#F2F2F2] rounded-xl flex justify-center items-center">Fire</div>
                 <div class="flex justify-between items-center mt-20">
                     <button class="h-[40px] w-[182px] text-center border-2 border-gray-400 rounded-xl"> 📑 Copy</button>
 
-                    <button class="h-[40px] w-[182px] text-center border-2 border-gray-400 rounded-xl bg-[#00A63E]">Call</button>  
+                    <button id="fire-service-calling" class=" copy-btn-999 h-[40px] w-[182px] text-center border-2 border-gray-400 rounded-xl bg-[#00A63E]">Call</button>  
                 
                 </div>
                 
@@ -172,7 +172,7 @@
                     <div class=" bg-[#FFE3E2] rounded-[16px] w-[60px] h-[60px] flex justify-center items-center ">
                         <img src="assets/ambulance.png" alt="" class="w-8 h-8 ">
                     </div>
-                    <button><img src="assets/heart.png" alt="" class= " w-8 h-8"> </button>
+                    <img src="assets/heart.png" alt="" class= " heart-icon w-8 h-8"> 
                 </div>
                 <!-- 5th card er card er prothom section sesh -->
                 
@@ -204,7 +204,7 @@
                     <div class=" bg-[#FFE3E2] rounded-[16px] w-[60px] h-[60px] flex justify-center items-center ">
                         <img src="assets/emergency.png" alt="" class="w-8 h-8 ">
                     </div>
-                    <button><img src="assets/heart.png" alt="" class= " w-8 h-8"> </button>
+                    <img src="assets/heart.png" alt="" class= " heart-icon w-8 h-8">
                 </div>
                 <!-- 6th card er card er prothom section sesh -->
                 
@@ -237,7 +237,7 @@
                     <div class=" bg-[#FFE3E2] rounded-[16px] w-[60px] h-[60px] flex justify-center items-center ">
                         <img src="assets/emergency.png" alt="" class="w-8 h-8 ">
                     </div>
-                    <button><img src="assets/heart.png" alt="" class= " w-8 h-8"> </button>
+                    <img src="assets/heart.png" alt="" class= " heart-icon w-8 h-8">
                 </div>
                 <!-- 7th card er card er prothom section sesh -->
                 
@@ -271,7 +271,7 @@
                     <div class=" bg-[#FFE3E2] rounded-[16px] w-[60px] h-[60px] flex justify-center items-center ">
                         <img src="assets/emergency.png" alt="" class="w-8 h-8 ">
                     </div>
-                    <button><img src="assets/heart.png" alt="" class= " w-8 h-8"> </button>
+                    <img src="assets/heart.png" alt="" class= " heart-icon w-8 h-8">
                 </div>
                 <!-- 8th card er card er prothom section sesh -->
                 
@@ -304,7 +304,7 @@
                     <div class=" bg-[#FFE3E2] rounded-[16px] w-[60px] h-[60px] flex justify-center items-center ">
                         <img src="assets/emergency.png" alt="" class="w-8 h-8 ">
                     </div>
-                    <button><img src="assets/heart.png" alt="" class= " w-8 h-8"> </button>
+                    <img src="assets/heart.png" alt="" class= " heart-icon w-8 h-8">
                 </div>
                 <!-- 9th card er card er prothom section sesh -->
                 
@@ -338,7 +338,7 @@
                     <div class=" bg-[#FFE3E2] rounded-[16px] w-[60px] h-[60px] flex justify-center items-center ">
                         <img src="assets/emergency.png" alt="" class="w-8 h-8 ">
                     </div>
-                    <button><img src="assets/heart.png" alt="" class= " w-8 h-8"> </button>
+                    <img src="assets/heart.png" alt="" class= " heart-icon w-8 h-8">
                 </div>
                 <!-- 10th card er card er prothom section sesh -->
                 
@@ -373,7 +373,7 @@
 
 
     
-<script src="system.js"></script>
+<script src="syetem.js"></script>
 </body>
 </html>
 
